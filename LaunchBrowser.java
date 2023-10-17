@@ -13,6 +13,8 @@ public class LaunchBrowser {
 		//WebDriver driver = new ChromeDriver();
         //driver.manage().window().maximize();
         WebDriver driver;
+		        System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
+
         //chromeoptions options = new chromeoptions();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("headless");
